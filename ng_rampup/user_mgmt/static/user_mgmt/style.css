@@ -1,0 +1,9 @@
+form *{
+    display: block;
+}
+form *.ng-invalid.ng-dirty {
+    border:2px solid #FA787E;
+}
+form *.ng-valid.ng-dirty {
+    border:2px solid #78FA89;
+}

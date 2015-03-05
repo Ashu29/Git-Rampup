@@ -1,0 +1,12 @@
+<div><h3>Login</h3></div>
+<div>
+    <form method="post" novalidate name="login_form" ng-submit="login_form.$valid && login_user()">
+        <label>Email:</label>
+        <input type="email" name="email" required ng-model="email">
+        <label>Password:</label>
+        <input type="password" name="password" required ng-model="password">
+        <button type="submit">Login</button>
+        <div>{{ msg }}</div>
+    </form>
+</div>
+<div><a href="#register">New User?</a></div>
