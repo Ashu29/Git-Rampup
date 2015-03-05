@@ -1,2 +1,2 @@
 # Ng-Rampup
-Small authentication app on angular and django
+Small authentication app on angular and django.
